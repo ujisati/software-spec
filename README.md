@@ -5,7 +5,7 @@ A **one‑shot scaffold** for solo developers who want a lint‑clean, AI‑frie
 ## 1  What the script does
 
 ```bash
-bash bootstrap_docs.sh
+bash bootstrap.sh
 ```
 
 * Creates the `docs/` hierarchy (vision, stories, C4 diagrams, ADRs).
