@@ -10,6 +10,7 @@ set -euo pipefail
 # ------------------------ paths ---------------------------------------------
 mkdir -p docs/{adr,stories,architecture/components,templates}
 touch docs/architecture/components/.gitkeep
+adr init docs/adr
 
 # ------------------------ vision --------------------------------------------
 cat > docs/vision.md <<'EOF'
