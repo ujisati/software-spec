@@ -63,7 +63,6 @@ templates/story.md
 scripts/check_frontmatter.py
 Makefile
 agent.md
-bootstrap_docs.sh
 ```
 
 Start by editing **`docs/vision.md`**, adding your first story with `make story`, then modelling `L1-context.mmd`. The rest of the workflow is codified in `agent.md` and enforced by the Makefile targets.
